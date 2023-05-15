@@ -1,0 +1,155 @@
+body {
+  font-family: "roboto-slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head {
+  margin-top: 15px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.text {
+  padding-top: 20px;
+}
+
+.one {
+  color: #1EA8F3;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav {
+  margin-top: 15px;
+  color: #1EA8F3;
+  border-top: solid #2F3472 2px;
+  border-bottom: solid #2F3472 2px;
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: row;
+  gap: 30rem;
+}
+
+a {
+  color: #1EA8F3;
+  text-decoration: none;
+}
+
+.left {
+  padding-top: 20px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.moon {
+  padding: 15px;
+}
+
+.heading {
+  color: #2F3472;
+  text-decoration: underline #2F3472;
+  margin-top: 10px;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Dropdown */
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.dd{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+select {
+width: 170px;
+height: 50px;
+font-size: 20px;
+padding: 10px;
+  background-color: #2F3472;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+select option {
+  font-size: 16px;
+  background-color: #f8f8f8;
+  color: #2F3472;
+  padding: 10px;
+}  
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #2F3472;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+
+.about {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #D9D9D9;
+  border-top: solid #2F3472 2px;
+  border-bottom: solid #2F3472 2px;
+  padding: 25px;
+}
+
+.footer {
+  padding-top: 5px;
+  text-align: center;
+  color: #2F3472;
+}
+.myTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.myTable th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.myTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.headerCell {
+  text-align: left;
+}
+
+.dataCell {
+  text-align: center;
+}
